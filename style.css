@@ -237,9 +237,7 @@ p small{
     nav ul{
         text-align: right;
     }
-    main{
-        width:1300px;
-    }
+    
     .galleryimgs{
         display: grid;
         grid-template-columns: repeat(3,1fr);

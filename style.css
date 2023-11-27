@@ -162,6 +162,7 @@ p small{
 @media (min-width:880px) {
     body{
         width: 880px;
+        
     }
     nav{
         width:880px;
@@ -172,14 +173,17 @@ p small{
     nav ul{
         text-align: center;
     }
-    main{
-        width:880px;
-    }
+   
     .galleryimgs{
         display: grid;
-        grid-template-columns: auto auto;
+        grid-template-columns:1fr 1fr;
         grid-template-rows: repeat(8,auto);
+        grid-gap:10px;
     }
+    img{
+        width:100%;
+    }
+
     .chile{
         grid-row:1 / 2;
     }
@@ -228,9 +232,6 @@ p small{
 
 @media (min-width:1300px){
     body{
-        width:1300px;
-    }
-    nav{
         width:1300px;
     }
     nav ul{

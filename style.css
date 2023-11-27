@@ -172,6 +172,9 @@ p small{
     nav ul{
         text-align: center;
     }
+    main{
+        width:880px;
+    }
     .galleryimgs{
         display: grid;
         grid-template-columns: auto auto;
@@ -214,11 +217,75 @@ p small{
     grid-row: 8 / 9;
    }
    input{
-    padding-right:575px;
+    padding-right:610px;
    }
    input[type=submit]{
     padding-left: 120px;
     padding-right: 120px;
+   }
+
+}
+
+@media (min-width:1300px){
+    body{
+        width:1300px;
+    }
+    nav{
+        width:1300px;
+    }
+    nav ul{
+        text-align: right;
+    }
+    main{
+        width:1300px;
+    }
+    .galleryimgs{
+        display: grid;
+        grid-template-columns: repeat(3,auto);
+        grid-template-rows: repeat(5,auto);
+    }
+    .chile{
+        grid-row:1 / 2;
+    }
+    .guatemala{
+        grid-row:1 / 2;
+    }
+    .hawaii{
+        grid-row:1 / 2;
+    }
+    .iran{
+        grid-row: 2 / 4;
+    }
+   .ireland{
+    grid-row: 2 / 4;
+   }
+   .italy{
+    grid-row: 2 / 4;
+   }
+   .moab{
+    grid-row: 4 / 5;
+   }
+   .rockymtns{
+    grid-row: 4/ 5;
+   }
+   .switzerland{
+    grid-row: 4 / 5;
+   }
+   .uk{
+    grid-row: 5 / 6;
+   }
+   .usa{
+    grid-row: 5 / 6;
+   }
+   .wyoming{
+    grid-row: 5 / 6 ;
+   }
+   input{
+    padding-right:1000px;
+   }
+   input[type=submit]{
+    padding-left: 200px;
+    padding-right: 200px;
    }
 
 }

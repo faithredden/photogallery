@@ -234,10 +234,12 @@ p small{
     body{
         width:1300px;
     }
-    nav ul{
-        text-align: right;
+    nav{
+        width:1300px;
     }
-    
+   nav ul{
+    text-align:right;
+   }
     .galleryimgs{
         display: grid;
         grid-template-columns: repeat(3,1fr);
